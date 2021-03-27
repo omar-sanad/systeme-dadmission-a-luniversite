@@ -1,0 +1,294 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<style id="template1_21104_Styles">
+<!--table
+	{mso-displayed-decimal-separator:"\.";
+	mso-displayed-thousand-separator:"\,";}
+@page
+	{margin:.75in .25in .75in .25in;
+	mso-header-margin:.3in;
+	mso-footer-margin:.3in;}
+tr
+	{mso-height-source:auto;}
+col
+	{mso-width-source:auto;}
+br
+	{mso-data-placement:same-cell;}
+.style0
+	{mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	white-space:nowrap;
+	mso-rotate:0;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	color:black;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	border:none;
+	mso-protection:locked visible;
+	mso-style-name:Normal;
+	mso-style-id:0;}
+td
+	{mso-style-parent:style0;
+	padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	border:none;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	mso-protection:locked visible;
+	white-space:nowrap;
+	mso-rotate:0;}
+.xl63
+	{mso-style-parent:style0;
+	font-size:16.0pt;
+	font-weight:700;
+	font-family:Bariol-Regular;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	text-align:center;
+	vertical-align:middle;
+	border:.5pt solid windowtext;}
+.xl64
+	{mso-style-parent:style0;
+	font-size:18.0pt;
+	font-weight:700;
+	font-family:Bariol-Regular;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	text-align:center;
+	vertical-align:middle;}
+.xl65
+	{mso-style-parent:style0;
+	font-size:14.0pt;
+	font-weight:700;
+	font-family:Bariol-Regular;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;}
+.xl66
+	{mso-style-parent:style0;
+	font-size:14.0pt;
+	font-weight:700;
+	font-family:Bariol-Regular;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;}
+-->
+</style>
+</head>
+
+<body link="#0563C1" vlink="#954F72">
+
+<div id="template1_21104" align=center x:publishsource="Excel">
+
+<table border=0 cellpadding=0 cellspacing=0 width=830 style='border-collapse:
+ collapse;table-layout:fixed;width:622pt'>
+ <col width=112 style='mso-width-source:userset;mso-width-alt:3584;width:84pt'>
+ <col width=107 style='mso-width-source:userset;mso-width-alt:3413;width:80pt'>
+ <col width=148 style='mso-width-source:userset;mso-width-alt:4736;width:111pt'>
+ <col width=123 style='mso-width-source:userset;mso-width-alt:3925;width:92pt'>
+ <col width=101 style='mso-width-source:userset;mso-width-alt:3242;width:76pt'>
+ <col width=152 style='mso-width-source:userset;mso-width-alt:4864;width:114pt'>
+ <col width=87 style='width:65pt'>
+ <tr height=31 style='mso-height-source:userset;height:23.0pt'>
+  <td rowspan=3 height=93 class=xl64 width=112 style='height:69.0pt;width:84pt'><img width="100px" height="60px" src = 'http://localhost:8080/logos/$universityLogo' /></td>
+  <td colspan=4 class=xl63 width=479 style='width:359pt'>$universityName</td>
+  <td rowspan=3 class=xl64 width=152 style='width:114pt'><img width="100px" height="60px" src = 'http://localhost:8080/logos/$establishmentLogo' /></td>
+  <td width=87 style='width:65pt'></td>
+ </tr>
+ <tr height=31 style='height:23.0pt'>
+  <td colspan=4 height=31 class=xl63 style='height:23.0pt'>###</td>
+  <td></td>
+ </tr>
+ <tr height=31 style='height:23.0pt'>
+  <td colspan=4 height=31 class=xl63 style='height:23.0pt'>&nbsp;</td>
+  <td></td>
+ </tr>
+ <tr height=31 style='height:23.0pt'>
+  <td rowspan=31 height=904 class=xl64 style='height:673.0pt'></td>
+  <td colspan=4 class=xl63>Fiche de préinscription</td>
+  <td rowspan=31 class=xl64></td>
+  <td></td>
+ </tr>
+ <tr height=31 style='height:23.0pt'>
+  <td colspan=4 height=31 class=xl63 style='height:23.0pt'>Admission au ###</td>
+  <td></td>
+ </tr>
+ <tr height=31 style='mso-height-source:userset;height:23.0pt'>
+  <td colspan=4 height=31 class=xl63 style='height:23.0pt'>Année universitaire
+  ###</td>
+  <td></td>
+ </tr>
+ <tr height=31 style='height:23.0pt'>
+  <td colspan=4 height=31 class=xl63 style='height:23.0pt'>Reçu généré Le $date à
+      $time</td>
+  <td></td>
+ </tr>
+ <tr height=31 style='height:23.0pt'>
+  <td colspan=4 height=31 class=xl63 style='height:23.0pt'>&nbsp;</td>
+  <td></td>
+ </tr>
+ <tr height=31 style='height:23.0pt'>
+  <td colspan=2 height=31 class=xl63 style='height:23.0pt'>CNE</td>
+  <td colspan=2 class=xl63 style='border-left:none'>$student.getNationalCode()</td>
+  <td></td>
+ </tr>
+ <tr height=31 style='height:23.0pt'>
+  <td colspan=2 height=31 class=xl63 style='height:23.0pt'>CIN</td>
+  <td colspan=2 class=xl63 style='border-left:none'>$student.getIdentityCode()</td>
+  <td></td>
+ </tr>
+ <tr height=31 style='height:23.0pt'>
+  <td colspan=2 height=31 class=xl63 style='height:23.0pt'>Nom</td>
+  <td colspan=2 class=xl63 style='border-left:none'>$student.getFirstName()</td>
+  <td></td>
+ </tr>
+ <tr height=31 style='height:23.0pt'>
+  <td colspan=2 height=31 class=xl63 style='height:23.0pt'>Prénom</td>
+  <td colspan=2 class=xl63 style='border-left:none'>$student.getLastName()</td>
+  <td></td>
+ </tr>
+ <tr height=31 style='height:23.0pt'>
+  <td colspan=2 height=31 class=xl63 style='height:23.0pt'>Sexe</td>
+  <td colspan=2 class=xl63 style='border-left:none'>$student.getGender()</td>
+  <td></td>
+ </tr>
+ <tr height=31 style='height:23.0pt'>
+  <td colspan=2 height=31 class=xl63 style='height:23.0pt'>Date de naissance</td>
+  <td colspan=2 class=xl63 style='border-left:none'>$student.getBirthDate()</td>
+  <td></td>
+ </tr>
+ <tr height=31 style='height:23.0pt'>
+  <td colspan=2 height=31 class=xl63 style='height:23.0pt'>Lieu de naissance</td>
+  <td colspan=2 class=xl63 style='border-left:none'>$student.getAddress()</td>
+  <td></td>
+ </tr>
+ <tr height=31 style='height:23.0pt'>
+  <td colspan=2 height=31 class=xl63 style='height:23.0pt'>Nationalité</td>
+  <td colspan=2 class=xl63 style='border-left:none'>$student.getNationality()</td>
+  <td></td>
+ </tr>
+ <tr height=31 style='height:23.0pt'>
+  <td colspan=2 height=31 class=xl63 style='height:23.0pt'>Fixe</td>
+  <td colspan=2 class=xl63 style='border-left:none'>$student.getSecondPhoneNumber()</td>
+  <td></td>
+ </tr>
+ <tr height=31 style='height:23.0pt'>
+  <td colspan=2 height=31 class=xl63 style='height:23.0pt'>GSM</td>
+  <td colspan=2 class=xl63 style='border-left:none'>$student.getPhoneNumber()</td>
+  <td></td>
+ </tr>
+ <tr height=31 style='height:23.0pt'>
+  <td colspan=2 height=31 class=xl63 style='height:23.0pt'>Adresse</td>
+  <td colspan=2 class=xl63 style='border-left:none'>$student.getAddress()</td>
+  <td></td>
+ </tr>
+ <tr height=31 style='height:23.0pt'>
+  <td colspan=2 height=31 class=xl63 style='height:23.0pt'>Dernier diplôme</td>
+  <td colspan=2 class=xl63 style='border-left:none'>$student.getLastDiplome()</td>
+  <td></td>
+ </tr>
+ <tr height=31 style='height:23.0pt'>
+  <td colspan=2 height=31 class=xl63 style='height:23.0pt'>L'école</td>
+  <td colspan=2 class=xl63 style='border-left:none'>$school</td>
+  <td></td>
+ </tr>
+ <tr height=31 style='height:23.0pt'>
+  <td colspan=2 height=31 class=xl63 style='height:23.0pt'>Université</td>
+  <td colspan=2 class=xl63 style='border-left:none'>$university</td>
+  <td></td>
+ </tr>
+ <tr height=21 style='height:16.0pt'>
+  <td height=21 colspan=4 style='height:16.0pt;mso-ignore:colspan'></td>
+  <td></td>
+ </tr>
+ <tr height=31 style='height:23.0pt'>
+  <td height=31 class=xl63 style='height:23.0pt'>Semestre</td>
+  <td class=xl63 style='border-left:none'>Année<span
+  style='mso-spacerun:yes'> </span></td>
+  <td class=xl63 style='border-left:none'>Moyenne</td>
+  <td class=xl63 style='border-left:none'>Diplôme</td>
+  <td></td>
+ </tr>
+
+#set( $counter = 1 )
+#foreach( $semesterMark in $semesterMarks )
+<tr height=31 style='height:23.0pt'>
+        <td height=31 class=xl63 style='height:23.0pt;border-top:none'>$semesterMark.getSemester()</td>
+        <td class=xl63 style='border-top:none;border-left:none'>$semesterMark.getYear()</td>
+        <td class=xl63 style='border-top:none;border-left:none'>$semesterMark.getMark()</td>
+        <td class=xl63 style='border-top:none;border-left:none'>$semesterMark.getDiplome()</td>
+        <td></td>
+</tr>
+#set( $counter = $counter + 1 )
+#end
+ <tr height=21 style='height:16.0pt'>
+  <td height=21 colspan=4 style='height:16.0pt;mso-ignore:colspan'></td>
+  <td></td>
+ </tr>
+ <tr height=24 style='height:18.0pt'>
+  <td height=24 style='height:18.0pt'></td>
+  <td colspan=2 class=xl65 style='border-right:.5pt solid black'>Date et
+  signature de condidat</td>
+  <td></td>
+  <td></td>
+ </tr>
+ <tr height=21 style='height:16.0pt'>
+  <td height=21 colspan=4 style='height:16.0pt;mso-ignore:colspan'></td>
+  <td></td>
+ </tr>
+ <tr height=21 style='height:16.0pt'>
+  <td height=21 colspan=4 style='height:16.0pt;mso-ignore:colspan'></td>
+  <td></td>
+ </tr>
+ <tr height=21 style='height:16.0pt'>
+  <td height=21 colspan=4 style='height:16.0pt;mso-ignore:colspan'></td>
+  <td></td>
+ </tr>
+ <![if supportMisalignedColumns]>
+ <tr height=0 style='display:none'>
+  <td width=112 style='width:84pt'></td>
+  <td width=107 style='width:80pt'></td>
+  <td width=148 style='width:111pt'></td>
+  <td width=123 style='width:92pt'></td>
+  <td width=101 style='width:76pt'></td>
+  <td width=152 style='width:114pt'></td>
+  <td width=87 style='width:65pt'></td>
+ </tr>
+ <![endif]>
+</table>
+
+</div>
+</body>
+</html>

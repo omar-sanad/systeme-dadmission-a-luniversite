@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Créer un nouveau compte</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+    <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+    <link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+    <link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+    <link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+    <link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+    <link rel="stylesheet" type="text/css" href="css/util.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+<div class="limiter">
+    <div class="container-login100">
+        <div class="wrap-login100">
+            <form class="login100-form validate-form p-l-55 p-r-55 p-t-178">
+					<span class="login100-form-title">
+						Créer un nouveau compte
+					</span>
+                <div class="wrap-input100 validate-input m-b-16">
+                    <input id="firstName" class="input100" type="text" placeholder="Prénom">
+                    <span class="focus-input100"></span>
+                </div>
+
+                <div class="wrap-input100 validate-input m-b-16">
+                    <input id="lastName" class="input100" type="text" placeholder="Nom">
+                    <span class="focus-input100"></span>
+                </div>
+
+                <div class="wrap-input100 validate-input m-b-16">
+                    <input id="email" class="input100" type="email" placeholder="Email">
+                    <span class="focus-input100"></span>
+                </div>
+
+                <div class="wrap-input100 validate-input m-b-16">
+                    <input id="phoneNumber" class="input100" type="email" placeholder="Numéro de téléphone">
+                    <span class="focus-input100"></span>
+                </div>
+
+                <div class="wrap-input100 validate-input m-b-16">
+                    <input id="password" class="input100" type="password" placeholder="Mot de passe">
+                    <span class="focus-input100"></span>
+                </div>
+
+                <div class="wrap-input100 validate-input m-b-16">
+                    <input id="repeatedPassword" class="input100" type="password" placeholder="Répéter le mot de passe">
+                    <span class="focus-input100"></span>
+                </div>
+
+                <div class="container-login100-form-btn">
+                    <button type="button" onclick="register()" class="login100-form-btn">
+                       S'inscrire
+                    </button>
+                </div>
+                <br><br>
+            </form>
+        </div>
+    </div>
+</div>
+<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+<script src="vendor/animsition/js/animsition.min.js"></script>
+<script src="vendor/bootstrap/js/popper.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<script src="vendor/select2/select2.min.js"></script>
+<script src="vendor/daterangepicker/moment.min.js"></script>
+<script src="vendor/daterangepicker/daterangepicker.js"></script>
+<script src="vendor/countdowntime/countdowntime.js"></script>
+<script src="js/main.js"></script>
+<script src="js/code.js"></script>
+<script src="js/axios.min.js"></script>
+<script src="js/cookie.umd.min.js"></script>
+
+<script type="text/javascript">
+    console.log("test if someone is logged in !")
+    var type = cookie.get('type');
+    if (type !== undefined) {
+        if (type === 'admin') {
+            window.location.href = "admin-dashboard/index.html";
+        } else if (type === 'student') {
+            window.location.href = "student-dashboard/index.html";
+        }
+    }
+</script>
+
+</body>
+</html>

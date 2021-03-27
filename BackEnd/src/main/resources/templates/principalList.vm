@@ -1,0 +1,227 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<style id="Book1_28450_Styles">
+<!--table
+	{mso-displayed-decimal-separator:"\.";
+	mso-displayed-thousand-separator:"\,";}
+@page
+	{margin:.75in .7in .75in .7in;
+	mso-header-margin:.3in;
+	mso-footer-margin:.3in;}
+tr
+	{mso-height-source:auto;}
+col
+	{mso-width-source:auto;}
+br
+	{mso-data-placement:same-cell;}
+.style0
+	{mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	white-space:nowrap;
+	mso-rotate:0;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	color:black;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	border:none;
+	mso-protection:locked visible;
+	mso-style-name:Normal;
+	mso-style-id:0;}
+td
+	{mso-style-parent:style0;
+	padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	border:none;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	mso-protection:locked visible;
+	white-space:nowrap;
+	mso-rotate:0;}
+.xl63
+{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-weight:700;
+	font-family:Bariol-Regular;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	text-align:center;
+	vertical-align:middle;
+	border:.5pt solid windowtext;}
+.xl633
+{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-weight:700;
+	font-family:Bariol-Regular;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	text-align:center;
+	vertical-align:middle;
+	}
+.xl64
+	{mso-style-parent:style0;
+	text-align:center;
+	vertical-align:middle;}
+.xl65
+	{mso-style-parent:style0;
+	font-size:16.0pt;
+	font-weight:700;
+	font-family:Bariol-Regular;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	text-align:center;
+	vertical-align:middle;}
+.xl66
+	{mso-style-parent:style0;
+	font-size:16.0pt;
+	font-weight:700;
+	font-family:Bariol-Regular;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:none;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;}
+.xl67
+	{mso-style-parent:style0;
+	font-size:16.0pt;
+	font-weight:700;
+	font-family:Bariol-Regular;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:none;
+	border-left:none;}
+.xl68
+	{mso-style-parent:style0;
+	font-size:16.0pt;
+	font-weight:700;
+	font-family:Bariol-Regular;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:none;}
+.xl69
+	{mso-style-parent:style0;
+	font-size:16.0pt;
+	font-weight:700;
+	font-family:Bariol-Regular;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;}
+-->
+</style>
+</head>
+
+<body link="#0563C1" vlink="#954F72" class=xl64>
+
+<div id="Book1_28450" align=center x:publishsource="Excel">
+
+<table border=0 cellpadding=0 cellspacing=0 width=702 style='border-collapse:
+ collapse;table-layout:fixed;width:525pt'>
+ <col class=xl64 width=87 span=5 style='width:65pt'>
+ <col class=xl64 width=180 style='mso-width-source:userset;mso-width-alt:5760;
+ width:135pt'>
+ <col class=xl64 width=87 style='width:65pt'>
+ <tr height=101 style='mso-height-source:userset;height:76.0pt'>
+  <td height=101 class=xl633 width=120 style='height:76.0pt;width:65pt'><img width="100px" height="60px" src = 'http://localhost:8080/files/logos/$universityLogo' /></td>
+  <td colspan=4 class=xl633 width=348 style='border-left:none;width:260pt'>$universityName<br>$establishmentName</td>
+  <td class=xl633 width=180 style='border-left:none;width:135pt'><img width="100px" height="60px" src = 'http://localhost:8080/files/logos/$establishmentLogo' /></td>
+  <td class=xl64 width=87 style='width:65pt'></td>
+ </tr>
+ <tr height=27 style='height:20.0pt'>
+  <td height=27 class=xl67 style='height:20.0pt;border-top:none'>&nbsp;</td>
+  <td class=xl65></td>
+  <td class=xl65></td>
+  <td class=xl65></td>
+  <td class=xl65></td>
+  <td class=xl65></td>
+  <td class=xl64></td>
+ </tr>
+ <tr height=27 style='height:20.0pt'>
+  <td height=27 class=xl68 style='height:20.0pt'>&nbsp;</td>
+  <td colspan=4 class=xl63 style='border-left:none'>$trainingName</td>
+  <td class=xl66 style='border-left:none'>&nbsp;</td>
+  <td class=xl64></td>
+ </tr>
+ <tr height=27 style='height:20.0pt'>
+  <td height=27 class=xl69 style='height:20.0pt'>&nbsp;</td>
+  <td class=xl65></td>
+  <td class=xl65></td>
+  <td class=xl65></td>
+  <td class=xl65></td>
+  <td class=xl65></td>
+  <td class=xl64></td>
+ </tr>
+ <tr height=27 style='height:20.0pt'>
+  <td height=27 class=xl63 style='height:20.0pt;border-top:none'>N°</td>
+  <td class=xl63 style='border-left:none'>CNE</td>
+  <td class=xl63 style='border-left:none'>CIN</td>
+  <td class=xl63 style='border-left:none'>Nom</td>
+  <td class=xl63 style='border-left:none'>Prénom</td>
+  <td class=xl63 style='border-left:none'>Date de naissance</td>
+  <td class=xl64></td>
+ </tr>
+ #set( $counter = 1 )
+ #foreach( $student in $students )
+  <tr height=27 style='height:20.0pt'>
+   <td height=27 class=xl63 style='height:20.0pt;border-top:none'>$counter</td>
+   <td class=xl63 style='border-top:none;border-left:none'>$student.getNationalCode()</td>
+   <td class=xl63 style='border-top:none;border-left:none'>$student.getIdentityCode()</td>
+   <td class=xl63 style='border-top:none;border-left:none'>$student.getLastName()</td>
+   <td class=xl63 style='border-top:none;border-left:none'>$student.getFirstName()</td>
+   <td class=xl63 style='border-top:none;border-left:none'>$student.getBirthDate()</td>
+   <td class=xl64></td>
+  </tr>
+  #set( $counter = $counter + 1 )
+ #end
+ <![if supportMisalignedColumns]>
+ <tr height=0 style='display:none'>
+  <td width=87 style='width:65pt'></td>
+  <td width=87 style='width:65pt'></td>
+  <td width=87 style='width:65pt'></td>
+  <td width=87 style='width:65pt'></td>
+  <td width=87 style='width:65pt'></td>
+  <td width=180 style='width:135pt'></td>
+  <td width=87 style='width:65pt'></td>
+ </tr>
+ <![endif]>
+</table>
+</div>
+</body>
+</html>

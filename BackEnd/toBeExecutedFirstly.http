@@ -1,0 +1,16 @@
+#Send
+GET http://localhost:8080/api/establishments/clearPrefs
+
+
+
+### Send
+POST http://localhost:8080/api/administrators
+Content-Type: application/json
+
+{
+  "firstName": "KHALID",
+  "lastName": "KHETTABY",
+  "email": "k.khettaby@ucd.ac.ma",
+  "password": "password",
+  "identityCode": "M657543"
+}

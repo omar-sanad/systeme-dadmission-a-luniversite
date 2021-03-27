@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png">
+    <link rel="icon" type="image/png" href="../assets/img/favicon.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <title>
+        Système d'admission à l'université
+    </title>
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no'
+          name='viewport'/>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet"/>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="../assets/css/paper-dashboard.css?v=2.0.1" rel="stylesheet"/>
+    <link href="../assets/demo/demo.css" rel="stylesheet"/>
+</head>
+<body class="">
+<div class="wrapper ">
+    <div class="sidebar" data-color="white" data-active-color="danger">
+        <div class="logo">
+            <a href="https://www.creative-tim.com" class="simple-text logo-normal">
+                Admission à l'université
+            </a>
+        </div>
+        <div class="sidebar-wrapper">
+            <ul class="nav">
+                <li>
+                    <a href="personal-information.html">
+                        <i class="nc-icon nc-bank"></i>
+                        <p>Informations Personnelles</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="grades.html">
+                        <i class="nc-icon nc-bank"></i>
+                        <p>Notes Et Résultas</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="upload-documents.html">
+                        <i class="nc-icon nc-diamond"></i>
+                        <p>Uploader Les Documents</p>
+                    </a>
+                </li>
+                <li class="active">
+                    <a href="select-establishment.html">
+                        <i class="nc-icon nc-bank"></i>
+                        <p>Sélectionner L'établissement</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="view-lists.html">
+                        <i class="nc-icon nc-bank"></i>
+                        <p>Afficher Les Listes</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="scholarships.html">
+                        <i class="nc-icon nc-bank"></i>
+                        <p>Consulter les bourses</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="main-panel">
+        <nav class="navbar navbar-expand-lg navbar-absolute fixed-top navbar-transparent">
+            <div class="container-fluid">
+                <div class="navbar-wrapper">
+                    <div class="navbar-toggle">
+                        <button type="button" class="navbar-toggler">
+                            <span class="navbar-toggler-bar bar1"></span>
+                            <span class="navbar-toggler-bar bar2"></span>
+                            <span class="navbar-toggler-bar bar3"></span>
+                        </button>
+                    </div>
+                    <a class="navbar-brand" href="javascript:;">Système d'admission à l'université</a>
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+                        aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-bar navbar-kebab"></span>
+                    <span class="navbar-toggler-bar navbar-kebab"></span>
+                    <span class="navbar-toggler-bar navbar-kebab"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navigation">
+                    <form>
+                        <div class="input-group no-border">
+                        </div>
+                    </form>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link btn-rotate" onclick="logout()">
+                                <i class="nc-icon nc-user-run"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="content">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card card-user">
+                        <div class="card-header">
+                            <h5 style="text-align: center" class="card-title">Sélectionner L'établissement</h5>
+                        </div>
+                        <div class="card-body">
+                            <form>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label>Etablissement :</label>
+                                            <select id="establishments" type="text" onchange="addAllTheTrainingsToSelectOptions()" class="form-control">
+
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label>Filière :</label>
+                                            <select id="speciality" type="text" class="form-control">
+
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="update ml-auto mr-auto">
+                                        <button id="addButton" type="button" onclick="updateStudentSpeciality()"
+                                                class="btn btn-primary btn-round">Enregistrer
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer footer-black  footer-white ">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="credits ml-auto">
+              <span class="copyright">
+                © <script>
+                  document.write(new Date().getFullYear())
+                </script> All rights are reserved
+              </span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</div>
+<script src="../js/axios.min.js"></script>
+<script src="../assets/js/core/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+<script src="../assets/js/core/popper.min.js"></script>
+<script src="../assets/js/core/bootstrap.min.js"></script>
+<script src="../assets/js/plugins/perfect-scrollbar.jquery.min.js"></script>
+<script src="../assets/js/plugins/chartjs.min.js"></script>
+<script src="../assets/js/plugins/bootstrap-notify.js"></script>
+<script src="../assets/js/paper-dashboard.min.js?v=2.0.1" type="text/javascript"></script>
+<script src="../assets/demo/demo.js"></script>
+<script src="../js/code.js"></script>
+<script src="../js/cookie.umd.min.js"></script>
+
+<script>
+
+
+    addAllEstablishmentsToSelectOptions();
+</script>
+</body>
+
+</html>
