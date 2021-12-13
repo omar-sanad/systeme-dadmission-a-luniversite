@@ -6,54 +6,54 @@ stage durant 3 mois au sein de l'école supérieur de technologie sous l'encadre
 </br>
 </br>
 <p align="center">
-   <img src="screens/1.png" width="350" title="hover text">
+   <img src="screen/1.png" width="350" title="hover text">
    </p>
 </br>
 <p align="center">
-   <img src="screens/2.png" width="350" title="hover text">
+   <img src="screen/2.png" width="350" title="hover text">
    </p>
    </br>
 <p align="center">
-   <img src="screens/3.png" width="350" title="hover text">
+   <img src="screen/3.png" width="350" title="hover text">
    </p>
    </br>
 <p align="center">
-   <img src="screens/4.png" width="350" title="hover text">
+   <img src="screen/4.png" width="350" title="hover text">
    </p>
    </br>
 <p align="center">
-   <img src="screens/5.png" width="350" title="hover text">
+   <img src="screen/5.png" width="350" title="hover text">
    </p>
    </br>
 <p align="center">
-   <img src="screens/6.png" width="350" title="hover text">
+   <img src="screen/6.png" width="350" title="hover text">
    </p>
    </br>
 <p align="center">
-   <img src="screens/7.png" width="350" title="hover text">
+   <img src="screen/7.png" width="350" title="hover text">
    </p>
    </br>
 <p align="center">
-   <img src="screens/8.png" width="350" title="hover text">
+   <img src="screen/8.png" width="350" title="hover text">
    </p>
    </br>
 <p align="center">
-   <img src="screens/9.png" width="350" title="hover text">
+   <img src="screen/9.png" width="350" title="hover text">
    </p>
    </br>
 <p align="center">
-   <img src="screens/10.png" width="350" title="hover text">
+   <img src="screen/10.png" width="350" title="hover text">
    </p>
    </br>
 <p align="center">
-   <img src="screens/11.png" width="350" title="hover text">
+   <img src="screen/11.png" width="350" title="hover text">
    </p>
    </br>
 <p align="center">
-   <img src="screens/12.png" width="350" title="hover text">
+   <img src="screen/12.png" width="350" title="hover text">
    </p>
    </br>
 <p align="center">
-   <img src="screens/13.png" width="350" title="hover text">
+   <img src="screen/13.png" width="350" title="hover text">
    </p>
    
