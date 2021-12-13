@@ -5,7 +5,7 @@ stage durant 3 mois au sein de l'école supérieur de technologie sous l'encadre
 <h3>les interfaces de l'application web  :</h3>
 </br>
 </br>
-<p align="center">
+<p align="left">
    <img src="screen/1.PNG" width="350" title="hover text">
    </p>
 </br>
