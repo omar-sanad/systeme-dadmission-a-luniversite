@@ -4,7 +4,7 @@ stage durant 3 mois au sein de l'école supérieur de technologie sous l'encadre
 
 <h3>les interfaces de l'application web  :</h3>
 </br>
-**<h4>la partie se connecter :</h4>**
+<h4><strong>la partie se connecter :</strong></h4>
    <p align="center">
    <img src="screen/1.PNG" width="350" title="hover text">
    </p>
