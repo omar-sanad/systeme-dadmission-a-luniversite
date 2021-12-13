@@ -6,7 +6,7 @@ stage durant 3 mois au sein de l'école supérieur de technologie sous l'encadre
 </br>
 </br>
 <p align="center">
-   <img src="screen/1.png" width="350" title="hover text">
+   <img src="screen/1.PNG" width="350" title="hover text">
    </p>
 </br>
 <p align="center">
